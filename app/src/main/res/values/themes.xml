@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.GoogleServiceInfo" parent="Theme.Material3.DayNight">
+    </style>
+
+    <style name="AppTheme.Transparent" parent="Theme.GoogleServiceInfo">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme_CustomRed" parent="AppTheme.Transparent"> <item name="colorPrimary">@color/custom_red_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/custom_red_200</item>
+        <item name="colorOnPrimaryContainer">@color/black</item>
+        <item name="colorSecondary">@color/custom_red_700</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/custom_red_200</item>
+        <item name="colorOnSecondaryContainer">@color/black</item>
+    </style>
+
+    <style name="AppTheme_CustomGreen" parent="AppTheme.Transparent"> <item name="colorPrimary">@color/custom_green_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/custom_green_200</item>
+        <item name="colorOnPrimaryContainer">@color/black</item>
+        <item name="colorSecondary">@color/custom_green_700</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/custom_green_200</item>
+        <item name="colorOnSecondaryContainer">@color/black</item>
+    </style>
+
+    <style name="AppTheme_CustomBlue" parent="AppTheme.Transparent"> <item name="colorPrimary">@color/custom_blue_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/custom_blue_200</item>
+        <item name="colorOnPrimaryContainer">@color/black</item>
+        <item name="colorSecondary">@color/custom_blue_700</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/custom_blue_200</item>
+        <item name="colorOnSecondaryContainer">@color/black</item>
+    </style>
+
+    <style name="AppTheme_CustomYellow" parent="AppTheme.Transparent"> <item name="colorPrimary">@color/custom_yellow_500</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimaryContainer">@color/custom_yellow_200</item>
+        <item name="colorOnPrimaryContainer">@color/black</item>
+        <item name="colorSecondary">@color/custom_yellow_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSecondaryContainer">@color/custom_yellow_200</item>
+        <item name="colorOnSecondaryContainer">@color/black</item>
+    </style>
+
+    <style name="AppTheme_CustomOrange" parent="AppTheme.Transparent"> <item name="colorPrimary">@color/custom_orange_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/custom_orange_200</item>
+        <item name="colorOnPrimaryContainer">@color/black</item>
+        <item name="colorSecondary">@color/custom_orange_700</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/custom_orange_200</item>
+        <item name="colorOnSecondaryContainer">@color/black</item>
+    </style>
+
+    <style name="AppTheme_CustomPurple" parent="AppTheme.Transparent"> <item name="colorPrimary">@color/custom_purple_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/custom_purple_200</item>
+        <item name="colorOnPrimaryContainer">@color/black</item>
+        <item name="colorSecondary">@color/custom_purple_700</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/custom_purple_200</item>
+        <item name="colorOnSecondaryContainer">@color/black</item>
+    </style>
+
+    <style name="AppTheme_CustomCyan" parent="AppTheme.Transparent"> <item name="colorPrimary">@color/custom_cyan_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/custom_cyan_200</item>
+        <item name="colorOnPrimaryContainer">@color/black</item>
+        <item name="colorSecondary">@color/custom_cyan_700</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/custom_cyan_200</item>
+        <item name="colorOnSecondaryContainer">@color/black</item>
+    </style>
+</resources>

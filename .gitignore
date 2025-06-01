@@ -1,0 +1,72 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+# Built application files
+*.apk
+*.aab
+*.ap_
+*.aapt
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+build/
+.gradle/
+local.properties
+.idea/workspace.xml
+.idea/libraries/
+.idea/caches/
+.idea/modules.xml
+.idea/jar_repository/
+
+# Local configuration file (sdk path, etc)
+local.properties
+.DS_Store
+
+# Android Studio navigation history
+.idea/navigation.xml
+
+# Keystore files (very important! Do NOT commit your keystore)
+*.jks
+*.keystore
+
+# Gradle properties and cache
+gradle.properties
+.gradle
+.cxx/
+captures/
+lint-results.html
+lint-results.xml
+proguard/
+data-binding-enabled/
+data-binding-base-class-logs-*.txt
+data-binding-compiler-logs-*.txt
+
+# Debugging
+*.hprof
+
+# NDK
+.externalNativeBuild/
+.gradle-template/
+
+# Google Services (if you have google-services.json and want to ignore it)
+# google-services.json
+
+# Any custom local files you don't want to commit
+# my_custom_file.txt
