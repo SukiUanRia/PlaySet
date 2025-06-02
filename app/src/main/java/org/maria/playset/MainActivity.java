@@ -1,4 +1,4 @@
-package org.maria.playset;
+package org.maria.playset; // 请根据您的项目包名修改
 
 import android.app.AlertDialog;
 import android.content.ClipData;
