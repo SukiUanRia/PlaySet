@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId = "org.maria.playset"
-        minSdk = 30
+        minSdk = 34
         targetSdk = 35
         versionCode = 2
         versionName = "0.1.5 -release"
