@@ -43,4 +43,17 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+    <string name="disclaimer_content">
+        本程序PlaySet仅用于测试和学习目的，旨在提供一个方便的平台来管理和启动您设备上的应用。
+        本程序不提供任何付费服务，不收集任何用户个人信息。
+        所有功能均在设备本地执行，不与任何外部服务器进行数据交互。
+        开发者不对因使用本程序而造成的任何直接或间接损失承担责任。
+        请在遵守当地法律法规的前提下使用本程序。
+    </string>
+
+    <string name="privacy_statement_content">
+        本程序PlaySet承诺不收集、不存储、不传输任何用户的个人数据。
+        所有应用数据（例如您添加的自定义应用列表）都仅存储在您设备的本地存储空间（SharedPreferences）中，不会上传到任何服务器。
+        本程序不会跟踪您的使用行为，也不会在后台运行任何收集信息的服务。
+    </string>
 </resources>

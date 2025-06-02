@@ -8,17 +8,17 @@ android {
 
     defaultConfig {
         applicationId = "org.maria.playset"
-        minSdk = 34
+        minSdk = 30
         targetSdk = 35
-        versionCode = 1
-        versionName = "0.1 -release"
+        versionCode = 2
+        versionName = "0.1.5 -release"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            isMinifyEnabled = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
@@ -49,4 +49,5 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.2.1")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.6.1")
+    implementation("com.google.code.gson:gson:2.10.1")
 }

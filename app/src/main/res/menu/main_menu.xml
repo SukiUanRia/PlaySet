@@ -3,7 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/action_settings"
-        android:icon="@drawable/settings_24"
-        android:title="设置"
-        app:showAsAction="ifRoom" />
+        android:icon="@drawable/settings_24" android:title="设置"
+        app:tint="?attr/colorOnSurface" app:showAsAction="ifRoom" />
 </menu>

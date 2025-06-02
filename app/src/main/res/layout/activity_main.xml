@@ -120,5 +120,32 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btn_open_google_services_settings" />
 
+        <LinearLayout
+            android:id="@+id/ll_dynamic_buttons_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_open_fcm_diagnostics"
+            app:layout_constraintHorizontal_bias="0.0">
+
+            <Button
+                android:id="@+id/btn_add_app_xml"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="添加应用"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center_vertical|start"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:layout_marginBottom="8dp" />
+
+        </LinearLayout>
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
